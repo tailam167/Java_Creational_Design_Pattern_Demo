@@ -20,7 +20,8 @@ public class Downloader {
 	}
 	
 	public void startDownloading() {
-		consoleLogger.writeNotify(String.valueOf("Dowloading data from the web..."));
+		consoleLogger.writeNotify("Server is running...");
+		System.out.println("Dowloading data from the web...");
 	}
 	
 	// Lazy version
